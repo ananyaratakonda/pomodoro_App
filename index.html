@@ -2,19 +2,26 @@
 <html>
 <head>
   <title>Pomodoro Timer</title>
-    <link rel="stylesheet" href="styles.css">
-  <!-- Import the Coming Soon font from Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1 id="timer">50:00</h1>
+
+  <div id="timerContainer">
+    <input id="hoursInput" type="number" min="0" max="99" value="00" /> :
+    <input id="minutesInput" type="number" min="0" max="59" value="50" /> :
+    <input id="secondsInput" type="number" min="0" max="59" value="00" />
+  </div>
+
+  <br>
+
   <button onclick="startTimer()">Start</button>
   <button onclick="pauseTimer()">Pause</button>
   <button onclick="resetTimer()">Reset</button>
 
   <script src="renderer.js"></script>
+
 </body>
 </html>
