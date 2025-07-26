@@ -1,0 +1,31 @@
+ body {
+    font-family: "Kantumruy Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    background-color: #5454f3;
+}
+
+h1 {
+    font-size: 70px;
+    margin-bottom: 30px;
+    letter-spacing: 10px;
+    color: #E3E3E3;
+}
+
+    button {
+      font-size: 18px;
+      margin: 10px;
+      padding: 10px 20px;
+      border-color: black;
+      background-color: white;
+      color: black;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+        font-family: "Kantumruy Pro", sans-serif;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
