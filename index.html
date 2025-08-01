@@ -9,17 +9,24 @@
 </head>
 <body>
 
-  <div id="timerContainer">
-    <input id="hoursInput" type="number" min="0" max="99" value="00" /> :
-    <input id="minutesInput" type="number" min="0" max="59" value="50" /> :
-    <input id="secondsInput" type="number" min="0" max="59" value="00" />
+  <div id="timerContainer" class="numbers">
+    <input id="hoursInput" type="number" min="0" max="99" value="00" /> 
+    <input class="minutes" id="minutesInput" type="number" min="0" max="59" value="50" /> 
+    <input class="seconds" id="secondsInput" type="number" min="0" max="59" value="00" />
   </div>
 
   <br>
 
-  <button onclick="startTimer()">Start</button>
-  <button onclick="pauseTimer()">Pause</button>
-  <button onclick="resetTimer()">Reset</button>
+  <div class="buttons">
+     <button class="buttonStart" onclick="startTimer()">Start</button>
+  <button class="buttonPause" onclick="pauseTimer()">Pause</button>
+  <button class="buttonReset"  onclick="resetTimer()">Reset</button>
+
+  </div>
+  <!-- This image will act as a dynamic background or main image -->
+<img id="backgroundImage" src="assets/flower1.png" alt="Background" class="flower"/>
+
+ 
 
   <script src="renderer.js"></script>
 

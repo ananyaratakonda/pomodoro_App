@@ -3,7 +3,7 @@
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
-    background-color: #5454f3;
+    background-image: url('assets/background.png');
 }
 
 h1 {
@@ -15,17 +15,76 @@ h1 {
 
     button {
       font-size: 18px;
-      margin: 10px;
-      padding: 10px 20px;
-      border-color: black;
-      background-color: white;
+      background-color: transparent;
       color: black;
-      border-radius: 6px;
       cursor: pointer;
       transition: background-color 0.3s;
         font-family: "Kantumruy Pro", sans-serif;
     }
 
     button:hover {
-      background-color: #45a049;
+      
+      
     }
+    .buttons{
+      padding-top: 4%;
+      padding-left: 7%;
+    }
+    button.buttonStart{
+       margin: 10px;
+      padding: 11px 20px;
+      border: black;
+      
+      background-color: transparent;
+      color: black;
+      cursor: pointer;
+
+    }
+    button.buttonReset{
+       margin: 10px;
+      padding: 11px 20px;
+      border: black;
+      
+      background-color: transparent;
+      color: black;
+      cursor: pointer;
+
+    }
+    button.buttonPause{
+       margin: 10px;
+      padding: 11px 23px;
+      border: black;
+      border-radius: 3px;
+      background-color: transparent;
+      color: black;
+      cursor: pointer;
+
+    }
+
+    .numbers{
+      padding-top: 25%;
+      padding-left: 11%;
+      display: flex;
+      gap: 57px;      
+
+      input {
+          background-color: transparent;
+          border: none; 
+          color: black;  /* Set text color so it's visible */
+          outline: none; 
+          font-size: 37px;
+          
+      }
+
+    }
+
+     .minutes{
+            padding-left: 0.5%;
+          }
+      .seconds{
+          padding-left: 0.75%;
+      }
+
+      .flower{
+        padding-left: 30%;
+      }
